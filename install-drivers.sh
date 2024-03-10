@@ -17,7 +17,6 @@ get_latest_wine_version() {
 
 # Update and upgrade system
 sudo apt update
-sudo apt upgrade -y
 
 # Add non-free repository
 echo "deb http://deb.debian.org/debian/ $(lsb_release -cs) main contrib non-free" | sudo tee -a /etc/apt/sources.list
